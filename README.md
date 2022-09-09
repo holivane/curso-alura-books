@@ -9,7 +9,7 @@ Construção de um site usando apenas HTML e CSS. Aplicado conhecimento adquirid
 
 
 #### Link do site no [Vercel]()
-#### Link do tamplate no [Figma]()
+#### Link do tamplate no [Figma](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks)
 
 <!--
 <div align="center">
