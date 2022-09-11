@@ -17,5 +17,22 @@
 }
 
 .banner_pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--cor-branca);
+    border-radius: 24px;
+    width: 100%;
+    color: var(--cor-branca);
+    padding: 1em;
+}
+
+.banner_pesquisa::placeholder {
+    background: url("../img/Pesquisa.png");
+    font-family: var(--fonte-principal);
     font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor-branca);
+    background-repeat: no-repeat;
+    background-position: 2.5em;
+
 }
