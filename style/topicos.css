@@ -50,7 +50,6 @@
 }
 
 .topicos__email {
-    background-color: transparent;
     border: 1px solid var(--cor-azul);
     border-radius: 24px;
     line-height: 24px;
@@ -62,10 +61,12 @@
 
 .topicos__email::placeholder {
     background: url("../img/Email.png");
+    background-color: transparent;
     background-repeat: no-repeat;
     background-position: 1.5em;
-    color: var(--cor-azul-degrade);
+    color: var(--cor-azul);
     font-size: 16px;
     font-family: var(--fonte-principal);
     text-align: center;
+    padding: 24px;
 }
