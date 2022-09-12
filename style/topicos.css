@@ -1,6 +1,5 @@
 .topicos {
     background: linear-gradient(97.54deg, #ffffff 35.49%, #EBECEE 165.37%);
-    padding-top: 1em;
 }
 
 .topicos__recentes {
@@ -29,4 +28,19 @@
     padding: 1em 1.5em;
     font-size: 14px;
     color: var(--cor-branca);
+}
+
+@media screen and (min-width:1024px) {
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .botoes__topico {
+        padding: 0 6em 1.5em 6em;
+        align-content: center;
+    }
+
+    .botao__topico {
+        font-size: 24px;
+    }
 }

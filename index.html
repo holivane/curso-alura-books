@@ -75,7 +75,7 @@
     <section class="banner">
       <h2 class="banner__titulo">Já sabe por onde começar?</h2>
       <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-      <input type="search" class="banner_pesquisa" placeholder="  Qual será sua próxima leitura?" />
+      <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?" />
     </section>
     <section class="carrossel">
       <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
@@ -169,19 +169,21 @@
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <div class="botoes__topico">
           <a href="#" class="botao__topico">Android</a>
+          <a href="#" class="botao__topico">OO</a>
           <a href="#" class="botao__topico">Marketing Digital</a>
           <a href="#" class="botao__topico">Agile</a>
           <a href="#" class="botao__topico">Startups</a>
           <a href="#" class="botao__topico">HTML & CSS</a>
           <a href="#" class="botao__topico">Python</a>
-          <a href="#" class="botao__topico">OO</a>
           <a href="#" class="botao__topico">Java</a>
         </div>
       </div>
     </section>
     <section class="contato">
-      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-      <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+      <div class="contato__descricao">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+      </div>
       <input type="email" class="contato__email" placeholder="Cadastre seu e-mail           " />
     </section>
     <footer class="rodape">
@@ -193,8 +195,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {
-        spaceBetween: 20,
-        slidesPerView: 2,
+        spaceBetween: 25,
+        slidesPerView: 3,
         pagination: {
           el: ".swiper-pagination",
           type: "bullets",
