@@ -27,7 +27,8 @@
 .container__imagem--texto,
 .container__botao,
 .opcoes,
-.opcoes__botao {
+.opcoes__botao,
+.texto__link {
     display: none;
 }
 
@@ -94,5 +95,32 @@
     .opcoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
+    }
+}
+
+
+@media screen and (min-width: 1728px) {
+    .container__dir {
+        display: flex;
+        margin-right: 5em;
+        justify-content: space-between;
+    }
+    .botoes__links {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-preta);
+        margin-left: 2em;
+    }
+    
+    .texto__link{
+        display: block;
+    }
+    .container {
+        margin-right: 3em;
+    }
+
+    .opcoes {
+        margin-right: auto;
     }
 }
