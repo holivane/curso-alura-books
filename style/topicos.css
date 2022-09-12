@@ -1,0 +1,71 @@
+.topicos {
+    background: linear-gradient(97.54deg, #ffffff 35.49%, #EBECEE 165.37%);
+    padding-top: 1em;
+}
+
+.topicos__recentes {
+    background: var(--cor-azul-degrade);
+}
+
+.topicos__titulo {
+    color: var(--cor-branca);
+    font-weight: 300;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.botoes__topico {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.botao__topico {
+    background: var(--cor-laranja);
+    text-decoration: none;
+    margin: 0.5em;
+    padding: 1em 1.5em;
+    font-size: 14px;
+    color: var(--cor-branca);
+}
+
+.cadastro {
+    padding: 1.5em;
+}
+
+.topicos__aviso {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--cor-azul-degrade);
+}
+
+.topicos__texto {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0.5em 0;
+}
+
+.topicos__email {
+    background-color: transparent;
+    border: 1px solid var(--cor-azul);
+    border-radius: 24px;
+    line-height: 24px;
+    padding: 0.75em 0;
+    font-family: var(--fonte-principal);
+    width: 100%;
+    margin-right: 3em;
+}
+
+.topicos__email::placeholder {
+    background: url("../img/Email.png");
+    background-repeat: no-repeat;
+    background-position: 1.5em;
+    color: var(--cor-azul-degrade);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    text-align: center;
+}

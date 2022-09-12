@@ -84,16 +84,86 @@
         <div class="card__botoes">
           <ul class="botoes">
             <li class="botoes__item">
-              <a href="#"><img src="img/Favoritos.svg" alt="Favoritos" class="container__imagem" /></a>
+              <a href="#"><img src="img/Favoritos.svg" alt="Favoritos" /></a>
             </li>
             <li class="botoes__item">
-              <a href="#"><img src="img/Compras.svg" alt="Compras" class="container__imagem" /></a>
+              <a href="#"><img src="img/Compras.svg" alt="Compras" /></a>
             </li>
           </ul>
           <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
       </div>
     </section>
+    <section class="carrossel">
+      <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/livros/Tuning.png" alt="Livro sobre Tuning SQL" /></div>
+          <div class="swiper-slide"><img src="img/livros/Nodejs.png" alt="Livro sobre Nodejs" /></div>
+          <div class="swiper-slide"><img src="img/livros/Gestão.png" alt="Livro sobre Gestão de Produtos" /></div>
+          <div class="swiper-slide"><img src="img/livros/Javascript.png" alt="Livro sobre Javascript assertivo" /></div>
+          <div class="swiper-slide"><img src="img/livros/MetricasAgeis.png" alt="Livro sobre Métricas ágeis" /></div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- Card -->
+      <div class="card">
+        <div class="card__descricao">
+          <div class="descricao">
+            <img src="img/Estrelinhas.png" alt="5 estrelas" class="estrelas" />
+            <h3 class="card__chamada">Autora do Mês</h3>
+            <h2 class="card__titulo">Juliana Agarikov</h2>
+            <p class="card__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+          </div>
+          <img src="img/Perfil-escritora.png" alt="Foto da escritora" class="descricao__imagem" />
+        </div>
+        <div class="card__botoes">
+          <ul class="botoes">
+            <li class="botoes__item">
+              <a href="#"><img src="img/Favoritos.svg" alt="Favoritos" /></a>
+            </li>
+            <li class="botoes__item">
+              <a href="#"><img src="img/Compras.svg" alt="Compras" /></a>
+            </li>
+          </ul>
+          <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+    <section class="topicos">
+      <div class="topicos__recentes">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <div class="botoes__topico">
+          <a href="#" class="botao__topico">Android</a>
+          <a href="#" class="botao__topico">Marketing Digital</a>
+          <a href="#" class="botao__topico">Agile</a>
+          <a href="#" class="botao__topico">Startups</a>
+          <a href="#" class="botao__topico">HTML & CSS</a>
+          <a href="#" class="botao__topico">Python</a>
+          <a href="#" class="botao__topico">OO</a>
+          <a href="#" class="botao__topico">Java</a>
+        </div>
+      </div>
+      <div class="cadastro">
+        <h2 class="topicos__aviso">Fique por dentro das novidades!</h2>
+        <p class="topicos__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input type="email" class="topicos__email" placeholder="Cadastre seu e-mail                      " />
+      </div>
+    </section>
+    <footer class="rodape">
+      <div >
+        <h2 class="rodape__titulo">Grupo Alura</h2>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {

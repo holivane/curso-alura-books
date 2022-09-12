@@ -31,12 +31,16 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin: 1em;
-    padding: 1em;
 }
 
 .card__descricao {
     display: flex;
     justify-content: space-between;
+}
+
+.descricao {
+    padding: 1.5em 1em;
+    padding-bottom: 0;
 }
 
 .card__chamada {
@@ -59,7 +63,9 @@
 }
 
 .descricao__imagem {
-    height: 168px;
+    height: 160px;
+    padding-top: 1.5em;
+    padding-right: 1em;
 }
 
 .card__botoes {
@@ -71,13 +77,19 @@
 .botoes {
     display: flex;
     justify-content: space-between;
+    margin: 0.75em;
 }
 
 .botoes__ancora {
     text-decoration: none;
     justify-content: center;
     background-color: var(--cor-laranja);
-    padding: 1em 2.2em;
+    padding: 1em 2em;
     color: var(--cor-branca);
     font-weight: 700;
+    margin-right: 1em;
+}
+
+.estrelas {
+    padding: 0.5em 0;
 }
