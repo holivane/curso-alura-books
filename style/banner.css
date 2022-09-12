@@ -27,7 +27,7 @@
 }
 
 .banner_pesquisa::placeholder {
-    background: url("../img/Pesquisa.png");
+    background: url("../img/Pesquisa.svg");
     font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400;

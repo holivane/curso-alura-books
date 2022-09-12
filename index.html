@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -38,11 +39,37 @@
           </li>
         </ul>
         <img src="img/Logo.svg" alt="Logotipo Alura Books" class="container__imagem" />
+        <img src="img/AluraBooks.svg" alt="Logotipo Alura Books" class="container__imagem--texto" />
       </div>
+
+      <ul class="opcoes">
+        <input type="checkbox" id="opcoes-menu" class="opcoes__botao" />
+        <label for="opcoes-menu"> <li class="opcoes__item">Categorias</li></label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Design & UX</a>
+          </li>
+        </ul>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+      </ul>
+
       <div class="container__dir">
-        <a href="#"><img src="img/Favoritos.svg" alt="Favoritos" class="container__imagem" /></a>
+        <a href="#"><img src="img/Favoritos.svg" alt="Favoritos" class="container__imagem container__imagem--transparente" /></a>
         <a href="#"><img src="img/Compras.svg" alt="Compras" class="container__imagem" /></a>
-        <a href="#"><img src="img/Usuario.png" alt="Perfil" class="container__imagem" /></a>
+        <a href="#"><img src="img/Usuario.svg" alt="Perfil" class="container__imagem" /></a>
       </div>
     </header>
     <section class="banner">
@@ -59,12 +86,12 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><img src="img/livros/Arquitetura.png" alt="Livro sobre Arquitetura de software distribuído" /></div>
-          <div class="swiper-slide"><img src="img/livros/Gestao.png" alt="Livro sobre Gestão de Produtos" /></div>
-          <div class="swiper-slide"><img src="img/livros/Javascript.png" alt="Livro sobre Javascript assertivo" /></div>
-          <div class="swiper-slide"><img src="img/livros/MetricasAgeis.png" alt="Livro sobre Métricas ágeis" /></div>
-          <div class="swiper-slide"><img src="img/livros/Nodejs.png" alt="Livro sobre Nodejs" /></div>
-          <div class="swiper-slide"><img src="img/livros/ReactNative.png" alt="Livro sobre React Native" /></div>
+          <div class="swiper-slide"><img src="img/livros/Arquitetura.svg" alt="Livro sobre Arquitetura de software distribuído" /></div>
+          <div class="swiper-slide"><img src="img/livros/Gestao.svg" alt="Livro sobre Gestão de Produtos" /></div>
+          <div class="swiper-slide"><img src="img/livros/Javascript.svg" alt="Livro sobre Javascript assertivo" /></div>
+          <div class="swiper-slide"><img src="img/livros/MetricasAgeis.svg" alt="Livro sobre Métricas ágeis" /></div>
+          <div class="swiper-slide"><img src="img/livros/Nodejs.svg" alt="Livro sobre Nodejs" /></div>
+          <div class="swiper-slide"><img src="img/livros/ReactNative.svg" alt="Livro sobre React Native" /></div>
         </div>
 
         <!-- If we need navigation buttons -->
@@ -79,7 +106,7 @@
             <h2 class="card__titulo">Angular 11 e Firebase</h2>
             <p class="card__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
           </div>
-          <img src="img/Angular.png" alt="Logo Angular" class="descricao__imagem" />
+          <img src="img/Angular.svg" alt="Logo Angular" class="descricao__imagem" />
         </div>
         <div class="card__botoes">
           <ul class="botoes">
@@ -103,11 +130,10 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><img src="img/livros/Tuning.png" alt="Livro sobre Tuning SQL" /></div>
-          <div class="swiper-slide"><img src="img/livros/Nodejs.png" alt="Livro sobre Nodejs" /></div>
-          <div class="swiper-slide"><img src="img/livros/Gestao.png" alt="Livro sobre Gestão de Produtos" /></div>
-          <div class="swiper-slide"><img src="img/livros/Javascript.png" alt="Livro sobre Javascript assertivo" /></div>
-          <div class="swiper-slide"><img src="img/livros/MetricasAgeis.png" alt="Livro sobre Métricas ágeis" /></div>
+          <div class="swiper-slide"><img src="img/livros/Nodejs.svg" alt="Livro sobre Nodejs" /></div>
+          <div class="swiper-slide"><img src="img/livros/Gestao.svg" alt="Livro sobre Gestão de Produtos" /></div>
+          <div class="swiper-slide"><img src="img/livros/Javascript.svg" alt="Livro sobre Javascript assertivo" /></div>
+          <div class="swiper-slide"><img src="img/livros/MetricasAgeis.svg" alt="Livro sobre Métricas ágeis" /></div>
         </div>
 
         <!-- If we need navigation buttons -->
@@ -118,12 +144,12 @@
       <div class="card">
         <div class="card__descricao">
           <div class="descricao">
-            <img src="img/Estrelinhas.png" alt="5 estrelas" class="estrelas" />
+            <img src="img/Estrelinhas.svg" alt="5 estrelas" class="estrelas" />
             <h3 class="card__chamada">Autora do Mês</h3>
             <h2 class="card__titulo">Juliana Agarikov</h2>
             <p class="card__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
           </div>
-          <img src="img/Perfil-escritora.png" alt="Foto da escritora" class="descricao__imagem" />
+          <img src="img/Perfil-escritora.svg" alt="Foto da escritora" class="descricao__imagem" />
         </div>
         <div class="card__botoes">
           <ul class="botoes">
