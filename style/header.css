@@ -55,6 +55,10 @@
     font-weight: 700;
 }
 
+.lista-menu__item {
+    border: none;
+}
+
 .lista-menu__link {
     color: var(--cor-azul-degrade);
     text-transform: uppercase;
