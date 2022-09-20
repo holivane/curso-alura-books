@@ -2,7 +2,7 @@
     background: var(--cor-azul-degrade);
     color: var(--cor-branca);
     text-align: center;
-    padding: 2em 1.5em;
+    padding: 2.5em 1.5em;
 }
 
 .banner__titulo {
@@ -32,7 +32,7 @@
 .banner__pesquisa--input::placeholder {
     background-image: url("../img/Pesquisa.svg");
     background-repeat: no-repeat;
-    background-position: 2em;
+    background-position: 1em;
     font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400;
