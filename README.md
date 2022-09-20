@@ -1,21 +1,20 @@
 <h1 align="center">Alura Books :woman_technologist:</h1>
+
+<div align="center">
+<img width="800" src="https://user-images.githubusercontent.com/37214904/191331099-43258569-2e06-43c1-9393-cfcbf6f6055b.png" />
+</div>
+
 <div>
 <h2>Sobre</h2>
 <p align="justify">
 Este projeto foi desenvolvido durante o curso "HTML e CSS: Responsividade com mobile first", realizado na Alura.</br>
-Construção de um site usando apenas HTML e CSS. Aplicado conhecimento adquirido até o momento (xx/09/2022).</br>
+Construção de um site usando apenas HTML e CSS, aplicando conhecimento adquirido até o momento (20/09/2022).</br>
 <p>
 </div>
 
 
 #### Link do site no [Vercel]( https://curso-alura-books.vercel.app/#)
 #### Link do tamplate no [Figma](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks)
-
-<!--
-<div align="center">
-<img width="700" src="https://user-images.githubusercontent.com/37214904/188850006-5c0b018f-521c-498e-97c2-ef738d21db78.png" />
-</div>
--->
 
 <h2>Ferramentas</h2>
 <ul>
