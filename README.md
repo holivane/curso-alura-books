@@ -8,7 +8,7 @@ Construção de um site usando apenas HTML e CSS. Aplicado conhecimento adquirid
 </div>
 
 
-#### Link do site no [Vercel]()
+#### Link do site no [Vercel]( https://curso-alura-books.vercel.app/#)
 #### Link do tamplate no [Figma](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks)
 
 <!--
