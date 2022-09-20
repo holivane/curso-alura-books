@@ -120,3 +120,34 @@
         margin: 3em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container{
+        display: flex;
+        margin: 1em 10vw 2em 10vw;
+    }
+
+    .swiper-pagination {
+        padding: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .card {
+        width: 50%;
+        margin-left: 3em;
+    }
+
+    .card__chamada {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .card__texto {
+        font-size: 16px;
+        width: 75%;
+        line-height: 24px;
+    }
+}

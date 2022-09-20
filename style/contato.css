@@ -61,3 +61,17 @@
     }
     
 }
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        padding: 2em 12em;
+    }
+
+    .contato__texto{
+        width: 90%;
+    }
+
+    .contato__email::placeholder{
+        font-size: 16px;
+    }
+}
